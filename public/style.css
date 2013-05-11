@@ -1,0 +1,52 @@
+/* Inspired by http://blog.samsoff.es/my-grid-system */
+
+body,
+html {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#ffffff;
+    font-family: "ff-tisa-web-pro", serif;
+    font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#wrap {
+  min-width: 300px;
+  max-width: 640px;
+  margin:0 auto;
+}
+
+#full-column {
+  min-width: 300px;
+	max-width: 640px;
+	margin-left: 10px;
+	margin-right: 10px;
+  margin-top: 2em;
+}
+
+#col1 {
+  width: 300px;
+  margin-right: 20px;
+  margin-left: 10px;
+  float: left;
+}
+
+#col2 {
+  width: 300px;
+  float: right;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 640px) {
+  #col2{
+      float:none;
+  }
+  #col2{
+    float:none;
+  }
+ }
+ 
